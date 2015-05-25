@@ -1,0 +1,6 @@
+SeleniumMyTest,1, 0, 0, 0, 42.304sec
+LogPortalTest,1, 0, 1, 0, 53.401sec
+VirtusaHomeTest,1, 0, 0, 0, 35.427sec
+HelloWorldTest,1, 0, 0, 0, 12.87sec
+AMDSTest,1, 0, 1, 0, 56.78sec
+GsPortalTest,1, 0, 0, 0, 41.017sec

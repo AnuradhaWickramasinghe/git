@@ -1,0 +1,5 @@
+Running com.example.tests.LogPortalTest,Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.226 sec
+Running com.example.tests.VirtusaHomeTest,Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.327 sec
+Running com.example.tests.HelloWorldTest,Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.134 sec
+Running com.example.tests.AMDSTest,Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.209 sec
+,Tests run: 5, Failures: 0, Errors: 0, Skipped: 0

@@ -1,0 +1,36 @@
+2014-09-18 17:42:22,607 WARN  [SoapUI] Missing folder [/home/btasmtest/Desktop/anuradha/sample-automate/./ext] for external libraries
+2014-09-18 17:42:22,607 INFO  [DefaultSoapUICore] Creating new settings at [/home/btasmtest/soapui-settings.xml]
+2014-09-18 17:42:23,823 INFO  [SoapUI] File [/home/btasmtest/Desktop/anuradha/sample-automate/simple-test-soapui-project.xml] does not exist, trying URL instead
+2014-09-18 17:42:23,824 ERROR [SoapUI] An error occurred [no protocol: simple-test-soapui-project.xml], see error log for details
+2014-09-18 17:42:23,825 ERROR [errorlog] java.net.MalformedURLException: no protocol: simple-test-soapui-project.xml
+java.net.MalformedURLException: no protocol: simple-test-soapui-project.xml
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:215)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:24)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:337)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:158)
+	at com.eviware.soapui.maven2.TestMojo.execute(TestMojo.java:113)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:347)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:154)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:582)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:214)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
